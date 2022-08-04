@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AirPollutionLondon.github.io/breatheUK",
+  "homepage": "http://jpapagno.github.io/breatheUK",
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "@testing-library/jest-dom": "^5.16.4",
