@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  /* color: #333; 
+  color:black;*/
+}
+
+h2 {
+  color: #00c988;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  background-color: #555;
+  align-items: center;
+  /*max-width: 1000px;*/
+  margin: 0 auto;
+  /*border-bottom: 1px solid #555;*/
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px;
+  color : white;
+}
+.navbar a:hover {
+  color: #00c988;
+  text-decoration: underline;
+}
+
+.register, .loginV3, .login, .deploy, .mySensors, .historical {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  opacity: 1.0 !important;
+}
+
+.browseData {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+
+.whiteBox {
+  background-color: white;
+  opacity: .85;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.whiteBoxAboutUs {
+  background-color: white;
+  opacity: .85;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.tiny {
+  width: 20%;
+  padding: 5px 5px;
+}
+
+.small {
+  width: 40%;
+}
+
+.medium {
+  width:75%;
+}
+
+#toppad {
+  padding-top: 20px;
+}
+
+#topmargin {
+  margin-top: 20px;
+}
+
+#topbotmargin {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#botmargin {
+  margin-bottom: 20px;
+}
+
+
+/* deploy sensor */
+
+.deploy input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.register input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.login input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.loginStandalone input, .create textarea, .create select, .loginStandalone div {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.loginV3 input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.historical input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.loginStandalone {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.loginStandalone h1 {
+  color: #00c988;
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 50px;
+}
+
+.imgs {
+  box-sizing: border-box;
+  background-size: 100%;
+  background-position: 50%;
+  width: 100%;
+  height: 500px;
+  margin: 0 0;
+}
+
+.logo {
+
+  width: 355px;
+  height: 100px;
+  object-fit: contain;
+  background-image : url(./imgs/yeah.PNG);
+}
+
+.logo:hover {
+
+  width: 355px;
+  height: 100px;
+  object-fit: contain;
+  background-image : url(./imgs/yeah_hover.PNG);
+}
+
+.footer {
+  display: inline;
+  padding: 10px;
+  display: flex;
+  background-color: #555;
+  align-items: center;
+  color : white;
+}
+
+
+h1 {
+  font-size : 30px;
+}
+
+.footer a {
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px;
+  color : white;
+
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+#smalllink {
+  font-size: 50%;
+}
+
+#view {
+  background-image: url('./imgs/view.jpg');
+}
+
+#arduino {
+  background-image: url('./imgs/device.jpg');
+}
+
+#people {
+  background-image: url('./imgs/people.jpg');
+}
+
+#bananaBread {
+  background-image: url('./imgs/bananaBread.jpg');
+}
+
+#BBportrait {
+  background-image: url('./imgs/BBportrait.jpg');
+}
+
+.home {
+  width: 100%;
+  margin: 0 0;
+  overflow: scroll;
+}
+
+.homepageText {
+  font-size: 120%;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: "Quicksand";
+  font-weight: normal;
+  background-color: white;
+  color: #00c988;
+  position:relative;
+  width: 40%;
+  opacity: 90%;
+  padding: 25px 25px;
+  text-align: center;
+}
+
+#viewText {
+  width: 38%;
+  left: 5%;
+  top: 80%;
+}
+
+#deviceText {
+  width: 38%;
+  left: 57%;
+  top: 80%;
+}
+
+#peopleText {
+  width: 38%;
+  left: 5%;
+  top: 80%;
+}
+
+.background {
+  box-sizing: border-box;
+  height:1000px !important;
+}
+
+#about-us {
+  font-size: 300%;
+  margin: 50px auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop-button {
+  background-color: white;
+  margin-left: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.team {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.person {
+  margin: 0px auto;
+}
+
+.scrollable {
+  overflow-y: scroll;
+}
+
+.people {
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.portraits {
+  background-size: 100%;
+  border-radius: 10%;
+  border: 10px solid #00c988;
+  width: 200px;
+  height: 200px;
+}
+
+.person h2 {
+  color:black;
+  font-size: 24px;
+}
+
+.twitter {
+  max-height: 200px;
+}
+
+.mySensors {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  table-layout: fixed;
+  margin-bottom: 6px;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 100%;
+  height: auto; 
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center  ;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+.historical {
+  height: 500px; /*for the footer*/
+}
+
+
+
+
+
+
+
+
+/*portrait imgs*/
+#benoni {
+  background-image: url('./peoplePics/benoni1612675496756.jfif');
+}
+
+#ahnaf {
+  background-image: url('./peoplePics/ahnaf1654136475934.jfif');
+}
+
+#ben {
+  background-image: url('./peoplePics/ben1639884730432.jfif');
+}
+
+#connie {
+  background-image: url('./peoplePics/connie1594432782679.jfif');
+}
+
+#jess {
+  background-image: url('./peoplePics/jess1651630840710.jfif');
+}
+
+#john {
+  background-image: url('./peoplePics/john1617658396356.jfif');
+}
+
+#luke {
+  background-image: url('./peoplePics/luke1637854352826.jfif');
+}
+
+#meghna {
+  background-image: url('./peoplePics/meghna1628118780369.jfif');
+}
+
+#morgan {
+  background-image: url('./peoplePics/morgan1580329064737.jfif');
+}
+
+#joey {
+  background-image: url('./peoplePics/joeyIMG_6594.png');
+}
+
+#ant {
+  background-image: url('./peoplePics/ant121721116_741157490080684_3009744165727653232_n.jpg');
+}
+
+#dec {
+  background-image: url('./peoplePics/declan227424057_125710636428329_2098980986199094364_n.jpg');
+}
+
+#is {
+  background-image: url('./peoplePics/is284815494_2852283131742271_4268318401378522054_n.jpg');
+}
+
+#savvas {
+  background-image: url('./peoplePics/sav510d57c4-f235-4b7f-a93f-19a0a44facc4.jpg');
+}
+
+#gina {
+  background-image: url('./peoplePics/ginadcc9f0fe-9de0-4953-951d-82e012bd80fd.jpg');
+}
+
+#sam {
+  background-image: url('./peoplePics/sam.jpg');
+}
+
+#jenny {
+  background-image: url('./peoplePics/jenny.jpg');
+}
+
+#carla {
+  background-image: url('./peoplePics/carlab3e86cc0-06df-4d4e-9c46-73005588f62b.jpg');
+}
+
+#jane {
+  background-image: url('./peoplePics/jane5d49e338-5d52-4514-a9e7-4240c519653c.jpg');
+}
+
+#yuhong {
+  background-image: url('./peoplePics/yuhong.jpg');
+}
+
+.aboutusText {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  font-size: 120%;
+  font-weight:500;
+}
+
+#pollution-type {
+  background-image: url('./imgs/pollution-type.jpg');
+  width: 800px;
+  height: 420px;
+}
+
+#gas-pollutants {
+  background-image: url('./imgs/gas-pollutants.jpg');
+  width: 800px;
+  height: 482px;
+}
+
+#pm-pollutants {
+  background-image: url('./imgs/pm-pollutants.jpg');
+  width: 800px;
+  height: 287px;
+}
+
+.data-table {
+  background-size: 100%;
+  border: 5px solid #d6f6ec;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.data {
+  display: inline;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Esri Stuff*/
+.embed-container {
+  position: relative; padding-bottom: 80%; height: 0; max-width: 100%;
+} 
+
+.embed-container iframe, .embed-container object, .embed-container iframe {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}
+ small {
+  position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;
+}
+ 
+/* popup stuff */
+.modal { font-size: 12px;}
+.modal .header { 
+  width: 100%; 
+  border-bottom: 1px solid gray; 
+  font-size: 18px; 
+  text-align: center; 
+  padding: 5px;
+}
+.modal .content { 
+  width: 100%; padding: 10px 5px;
+}
+.modal .actions { 
+      width: 100%; 
+      padding: 10px 5px; 
+      margin: auto; 
+      text-align: center;
+    }
+.modal .close { 
+  cursor: pointer; 
+  position: absolute; 
+  display: block; 
+  padding: 2px 5px; 
+  line-height: 20px; 
+  right: -10px; 
+  top: -10px; 
+  font-size: 24px; 
+  background: #ffffff; 
+  border-radius: 18px; 
+  border: 1px solid #cfcece;
+}
+
+
+
